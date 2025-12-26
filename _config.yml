@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # the available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Yet another physics blog"
+title                    : "Just Another Physics Blog"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -23,12 +23,12 @@ repository               : "baba26/baba26.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "doraemon.png"
   name             : "baba26"
   pronouns         : # example: "she/her"  
-  bio              : "A physics grad student trying write some blogs"
+  bio              : "A physics grad student trying to write blogs"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "Stony Brook University"
   uri              : # URL
   email            : "none@example.org" 
 
