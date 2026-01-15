@@ -5,32 +5,14 @@ permalink: /quotes/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="wordwrap">Sometimes I get caught up in the publish-and-perish mindset. Here are some quotes that I read to keep myself motivated. These quotes remind me to just enjoy physics, and not worry about being "successfull".</div>
 
-{% include base_path %}
+<h2>Words of wisdom</h2>
+<hr>
+<div class="list_item">
+  <p>Deep understanding cannot be consumed; it must be created.</p>
+</div>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
 
 
 
