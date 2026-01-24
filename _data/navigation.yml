@@ -25,6 +25,9 @@ main:
 
   - title: "Quotes"
     url: /quotes/
+
+  - title: "About Me"
+    url: /aboutme/
     
   #- title: "CV"
   #  url: /cv/
